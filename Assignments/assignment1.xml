@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <catalogue type="Technical Books">
+        <book>
+            <ISBN>"9388511379"</ISBN>
+            <title>Data Science with Jupyter</title>
+            <author>Prateek Gupta</author>
+        </book>
+        <book>
+            <ISBN>"1775093328"</ISBN>
+            <title>Real Python</title>
+            <author>David Ramos</author>
+        </book>
+    </catalogue>
+    <catalogue type="Cookery Books">
+        <book>
+            <ISBN>"0722536968"</ISBN>
+            <title>Easy Vegan Cooking</title>
+            <author>Leah Leneman</author>
+        </book>
+        <book>
+            <ISBN>"072254006X"</ISBN>
+            <title>Vegan Feasts</title>
+            <author>Rose Elliot</author>
+        </book>
+    </catalogue>
+</library>
+
