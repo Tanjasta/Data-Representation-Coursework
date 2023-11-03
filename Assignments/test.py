@@ -1,11 +1,8 @@
-
-
 from github import Github
 import requests
 from config import config as cfg
 
 apikey = cfg["githubkey"]
-
 g = Github(apikey)
 
 #for repo in g.get_user().get_repos():
@@ -14,7 +11,7 @@ g = Github(apikey)
     # to see all the available attributes and methods
     #print(dir(repo))
 # make sure this replository exists, and that the path is correct
-repo = g.get_repo("andrewbeattycourseware/aprivateone")
+repo = g.get_repo("Tanjasta/aprivateone")
 #print(repo.clone_url)
 fileInfo = repo.get_contents("test.txt")
 urlOfFile = fileInfo.download_url
