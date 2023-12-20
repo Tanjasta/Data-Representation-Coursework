@@ -5,13 +5,10 @@ from config import config as cfg
 
 filename = "repos-private.json"
 
-#url = 'https://api.github.com/repos/andrewbeattycourseware/datarepresentation/contents/code'
+
 url = 'https://api.github.com/repos/Tanjasta/aprivateone'
 apikey = cfg["githubkey"]
 
-# the more basic way of setting authorization
-#headers = {'Authorization': 'token ' + apikey}
-#response = requests.get(url, headers= headers)
 
 apikey = cfg["githubkey"]
 response = requests.get(url, auth = ('token', apikey))
